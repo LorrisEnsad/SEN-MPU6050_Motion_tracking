@@ -28,7 +28,7 @@ V(t_m) \simeq 1/f\sum_{i=0}^{\llcorner (t_m-t_0) * f \lrcorner } a_i + V(t_0)
 $$
 
 Où $a_i$ est la suite des valeurs mesurées par le capteur à intervalle régulier de $1/f$  seconde. $\llcorner (t_m-t_0) * f \lrcorner$ est le nombre de ces mesures entre $t_0$ et $t_m$.
-La formule se lit : La vitesse au temps $t_m$ est environ égale à $1/f$ multiplié par la somme des accélérations mesurées entre $t_0$et $t_m$, plus la vitesse au temps $t_0$.
+La formule se lit : La vitesse au temps $t_m$ est environ égale à $1/f$ multiplié par la somme des accélérations mesurées entre $t_0$ et $t_m$, plus la vitesse au temps $t_0$.
 
 Définissons $V_n$ tel que 
 
