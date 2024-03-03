@@ -6,7 +6,7 @@ Le projet consiste à élaborer un veste de motard affichant la vitesse maximale
 
 ### Fondement théorique de la mesure
 
-Un accéléromètre permet d'acquérir les données d'accélération sur chaque axe ($x$,$y$ et $z$), avec comme unité $g$ l'accélération de la gravité , convertible en $m.s^{-1}$ grâce à la relation de proportionnalité :  
+Un accéléromètre permet d'acquérir les données d'accélération sur chaque axe ($x$, $y$ et $z$), avec comme unité $g$ l'accélération de la gravité , convertible en $m.s^{-1}$ grâce à la relation de proportionnalité :  
 
 $$
 1g = 9,8066 ms^{-1}
@@ -19,7 +19,7 @@ $$
 V(t_m)= \int_{t_0}^{t_m} a(t)dt  + V(t_0)
 $$
 
-On voit que $V(t_0)$, la vitesse au temps $t_0$ est nécessaire pour obtenir la mesure à un moment ultérieur $t_m$. Par conséquent il est nécessaire de **connaître la vitesse au moment du démarrage de la mesure.**  
+On voit que $V(t_0)$, la vitesse au temps $t_0$ est nécessaire pour obtenir la mesure à un moment ultérieur $t_m$ . Par conséquent il est nécessaire de **connaître la vitesse au moment du démarrage de la mesure.**  
 De plus, l'accélération n'est pas connue à tout instant, mais seulement aux points d'acquisition du capteur. On ne connaît pas $a(t)$ pour $t$ un temps arbitraire. Il faut donc *discrétiser* l'intégrale, c'est à dire l'approximer par la somme des mesures multiplié par l'intervalle de temps qui les sépare. **On ne peux obtenir qu'une approximation de la vitesse** (dont la précision dépend de la fréquence d'échantillonnage).
 On approxime donc l'intégrale tel que suit : 
 
